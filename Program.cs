@@ -9,13 +9,7 @@ namespace solve_matrix
 {
     class Program
     {
-        public static void PrintIndexAndValues(ArrayList myList)
-        {
-            int i = 0;
-            foreach (Object o in myList)
-                Console.WriteLine("\t[{0}]:\t{1}", i++, o);
-            Console.WriteLine();
-        }
+       
 
         public static void PrintCharMatrix(char[] s)
         {
@@ -480,42 +474,8 @@ namespace solve_matrix
 
         static void Main(string[] args)
         {
-            double[,] matrixa ={
-                {1,2,3},
-                {4,5,6},
-                {7,1,1}
-
-        };
-
-
-            double[,] matrix1 ={
-         {1,2,3},
-         {4,5,6},
-
-};
-
-            double[,] matrix2 ={
-
-
-        {7,8},
-        {9,10},
-        {11,12 },
-};
-
-
-
-
-
-
-
-            printmatrix(solve("3x+y=27,5x+7y=35"));
-
             
-
-           
-
-
-
+            printmatrix(solve("3x+y=27,5x+7y=35"));
             Console.ReadKey();
 
 
